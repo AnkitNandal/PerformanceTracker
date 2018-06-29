@@ -1,0 +1,11 @@
+framework module KPerformanceLogger {
+  umbrella header "KPerformanceLogger.h"
+
+  export *
+  module * { export * }
+}
+
+module KPerformanceLogger.Swift {
+    header "KPerformanceLogger-Swift.h"
+    requires objc
+}

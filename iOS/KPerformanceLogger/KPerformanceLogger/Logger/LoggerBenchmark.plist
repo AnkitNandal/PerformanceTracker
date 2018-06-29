@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>type</key>
+		<string>userInterface</string>
+		<key>benchmarkTime</key>
+		<integer>2000</integer>
+		<key>data</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>parsing</string>
+		<key>benchmarkTime</key>
+		<integer>200</integer>
+		<key>data</key>
+		<integer>40</integer>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>network</string>
+		<key>benchmarkTime</key>
+		<integer>400</integer>
+		<key>data</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>type</key>
+		<string>coreData</string>
+		<key>benchmarkTime</key>
+		<integer>400</integer>
+		<key>data</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

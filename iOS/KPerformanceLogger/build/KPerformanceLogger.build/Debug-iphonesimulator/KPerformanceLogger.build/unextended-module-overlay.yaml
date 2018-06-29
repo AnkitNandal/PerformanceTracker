@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/ankit.nandal/Library/Developer/Xcode/DerivedData/KPerformanceLogger-bzifhwrsxpgorianegdibobblxss/Build/Products/Debug-iphonesimulator/KPerformanceLogger.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphonesimulator/KPerformanceLogger.build/unextended-module.modulemap',
+    }]
+  }]
+}

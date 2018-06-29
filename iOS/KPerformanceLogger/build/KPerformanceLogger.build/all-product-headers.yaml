@@ -1,0 +1,104 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ankit.nandal/Library/Developer/Xcode/DerivedData/KPerformanceLogger-bzifhwrsxpgorianegdibobblxss/Build/Products/Debug-iphonesimulator/KPerformanceLogger.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "KPLogManager.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Objective-C/KPLogManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "KPerformanceLogger-Swift.h",
+          'external-contents': "/Users/ankit.nandal/Library/Developer/Xcode/DerivedData/KPerformanceLogger-bzifhwrsxpgorianegdibobblxss/Build/Products/Debug-iphonesimulator/KPerformanceLogger.framework/Headers/KPerformanceLogger-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "KPerformanceLogger.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/UmbrellaHeader/KPerformanceLogger.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ankit.nandal/Library/Developer/Xcode/DerivedData/KPerformanceLogger-bzifhwrsxpgorianegdibobblxss/Build/Products/Debug-iphonesimulator/KPerformanceLogger.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphonesimulator/KPerformanceLogger.build/module.modulemap"
+        },
+        {
+          'type': 'file',
+          'name': "module.private.modulemap",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphonesimulator/KPerformanceLogger.build/module.private.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ankit.nandal/Library/Developer/Xcode/DerivedData/KPerformanceLogger-bzifhwrsxpgorianegdibobblxss/Build/Products/Debug-iphonesimulator/KPerformanceLogger.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CocoaLumberjack.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/CocoaLumberjack.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogCapture.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDASLLogCapture.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDASLLogger.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDASLLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAbstractDatabaseLogger.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDAbstractDatabaseLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDAssertMacros.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDAssertMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDFileLogger.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDFileLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLegacyMacros.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDLegacyMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog+LOGV.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDLog+LOGV.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLog.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDLog.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDLogMacros.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDLogMacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "DDTTYLogger.h",
+          'external-contents': "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLogger/DDTTYLogger.h"
+        }
+      ]
+    }
+  ]
+}

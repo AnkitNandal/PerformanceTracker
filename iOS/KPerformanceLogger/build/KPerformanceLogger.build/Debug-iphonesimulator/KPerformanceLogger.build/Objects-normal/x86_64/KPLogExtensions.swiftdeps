@@ -1,0 +1,451 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ElapsedTime"
+- "TransactionId"
+- "LogTypeTransactionId"
+- "LogReport"
+provides-nominal:
+- "So11FileManagerC18KPerformanceLoggerE5PathsO"
+provides-member:
+- ["So8NSObjectC", ""]
+- ["So11FileManagerC", ""]
+- ["So11FileManagerC18KPerformanceLoggerE5PathsO", ""]
+- ["10Foundation4DateV", ""]
+- ["10Foundation4DataV", ""]
+- ["So8NSObjectC", "kpLoggerTransactionId"]
+- ["So8NSObjectC", "kploggerCustomTransactionId"]
+- ["So8NSObjectC", "kploggerComments"]
+- ["So11FileManagerC", "Paths"]
+- ["10Foundation4DateV", "toFormat"]
+- ["10Foundation4DataV", "sizeString"]
+provides-dynamic-lookup:
+- "kpLoggerTransactionId"
+- "kploggerComments"
+- "kploggerCustomTransactionId"
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- !private "AssociatedObjectHandleForloggerComment"
+- !private "AssociatedObjectHandleForloggerCustomTypeId"
+- !private "AssociatedObjectHandleForloggerTransaction"
+- "ByteCountFormatter"
+- "CastingPrecedence"
+- "Data"
+- "Date"
+- !private "DateFormatter"
+- "Double"
+- "ElapsedTime"
+- "FileManager"
+- !private "Int64"
+- !private "KPLoggerConstants"
+- "LogReport"
+- "LogTypeTransactionId"
+- "NSObject"
+- "String"
+- "TransactionId"
+- "UInt8"
+- !private "objc_AssociationPolicy"
+- !private "objc_getAssociatedObject"
+- !private "objc_setAssociatedObject"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "ByteCountFormatter"]
+- !private ["s23BidirectionalCollectionP", "Int64"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s13BinaryIntegerP", "init"]
+- ["So18ByteCountFormatterC", "CountStyle"]
+- ["So18ByteCountFormatterC", "Units"]
+- !private ["So18ByteCountFormatterC", "allowedUnits"]
+- !private ["So18ByteCountFormatterC", "countStyle"]
+- !private ["So18ByteCountFormatterC", "init"]
+- !private ["So18ByteCountFormatterC", "string"]
+- !private ["s7CVarArgP", "AssociatedObjectHandleForloggerComment"]
+- !private ["s7CVarArgP", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["s7CVarArgP", "AssociatedObjectHandleForloggerTransaction"]
+- ["s7CVarArgP", "CountStyle"]
+- ["s7CVarArgP", "FileManager"]
+- ["s7CVarArgP", "Units"]
+- !private ["s7CVarArgP", "allowedUnits"]
+- !private ["s7CVarArgP", "countStyle"]
+- !private ["s7CVarArgP", "dateFormat"]
+- ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "objc_AssociationPolicy"]
+- !private ["s7CVarArgP", "objc_getAssociatedObject"]
+- !private ["s7CVarArgP", "objc_setAssociatedObject"]
+- !private ["s7CVarArgP", "string"]
+- ["s7CVarArgP", "urls"]
+- !private ["s10CollectionP", "ByteCountFormatter"]
+- !private ["s10CollectionP", "Int64"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10ComparableP", "DateFormatter"]
+- !private ["s10ComparableP", "KPLoggerConstants"]
+- !private ["s10ComparableP", "init"]
+- !private ["So18ByteCountFormatterC0B5StyleO", "file"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociatedObjectHandleForloggerComment"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociatedObjectHandleForloggerTransaction"]
+- !private ["s28CustomDebugStringConvertibleP", "ByteCountFormatter"]
+- ["s28CustomDebugStringConvertibleP", "CountStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "KPLoggerConstants"]
+- ["s28CustomDebugStringConvertibleP", "Units"]
+- !private ["s28CustomDebugStringConvertibleP", "allowedUnits"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "countStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s29CustomPlaygroundQuickLookableP", "DateFormatter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "KPLoggerConstants"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "ByteCountFormatter"]
+- !private ["s17CustomReflectableP", "DateFormatter"]
+- !private ["s17CustomReflectableP", "Int64"]
+- !private ["s17CustomReflectableP", "KPLoggerConstants"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AssociatedObjectHandleForloggerComment"]
+- !private ["s23CustomStringConvertibleP", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["s23CustomStringConvertibleP", "AssociatedObjectHandleForloggerTransaction"]
+- !private ["s23CustomStringConvertibleP", "ByteCountFormatter"]
+- ["s23CustomStringConvertibleP", "CountStyle"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "KPLoggerConstants"]
+- ["s23CustomStringConvertibleP", "Units"]
+- !private ["s23CustomStringConvertibleP", "allowedUnits"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "countStyle"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "objc_AssociationPolicy"]
+- !private ["s23CustomStringConvertibleP", "objc_getAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "objc_setAssociatedObject"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", "urls"]
+- ["10Foundation4DataV", "ByteCountFormatter"]
+- !private ["10Foundation4DataV", "Int64"]
+- ["10Foundation4DataV", "String"]
+- !private ["10Foundation4DataV", "count"]
+- ["10Foundation4DataV", "sizeString"]
+- !private ["10Foundation4DateV", "DateFormatter"]
+- !private ["10Foundation4DateV", "KPLoggerConstants"]
+- ["10Foundation4DateV", "String"]
+- ["10Foundation4DateV", "toFormat"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["s9DecodableP", "ByteCountFormatter"]
+- !private ["s9DecodableP", "DateFormatter"]
+- !private ["s9DecodableP", "Int64"]
+- !private ["s9DecodableP", "KPLoggerConstants"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "ByteCountFormatter"]
+- !private ["s9EncodableP", "DateFormatter"]
+- !private ["s9EncodableP", "Int64"]
+- !private ["s9EncodableP", "KPLoggerConstants"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AssociatedObjectHandleForloggerComment"]
+- !private ["s9EquatableP", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["s9EquatableP", "AssociatedObjectHandleForloggerTransaction"]
+- !private ["s9EquatableP", "ByteCountFormatter"]
+- ["s9EquatableP", "CountStyle"]
+- !private ["s9EquatableP", "DateFormatter"]
+- ["s9EquatableP", "FileManager"]
+- !private ["s9EquatableP", "Int64"]
+- !private ["s9EquatableP", "KPLoggerConstants"]
+- !private ["s9EquatableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["s9EquatableP", "Units"]
+- ["s9EquatableP", "allDomainsMask"]
+- !private ["s9EquatableP", "allowedUnits"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "countStyle"]
+- !private ["s9EquatableP", "dateFormat"]
+- ["s9EquatableP", "default"]
+- ["s9EquatableP", "documentDirectory"]
+- !private ["s9EquatableP", "file"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "libraryDirectory"]
+- !private ["s9EquatableP", "objc_AssociationPolicy"]
+- !private ["s9EquatableP", "objc_getAssociatedObject"]
+- !private ["s9EquatableP", "objc_setAssociatedObject"]
+- !private ["s9EquatableP", "string"]
+- ["s9EquatableP", "urls"]
+- !private ["s9EquatableP", "useAll"]
+- ["s25ExpressibleByArrayLiteralP", "allDomainsMask"]
+- !private ["s25ExpressibleByArrayLiteralP", "useAll"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["So11FileManagerC", "FileManager"]
+- ["So11FileManagerC", "Paths"]
+- ["So11FileManagerC", "default"]
+- ["So11FileManagerC", "urls"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["So9FormatterC", "CountStyle"]
+- ["So9FormatterC", "Units"]
+- !private ["So9FormatterC", "allowedUnits"]
+- !private ["So9FormatterC", "countStyle"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "string"]
+- !private ["s8HashableP", "AssociatedObjectHandleForloggerComment"]
+- !private ["s8HashableP", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["s8HashableP", "AssociatedObjectHandleForloggerTransaction"]
+- !private ["s8HashableP", "ByteCountFormatter"]
+- ["s8HashableP", "CountStyle"]
+- !private ["s8HashableP", "DateFormatter"]
+- ["s8HashableP", "FileManager"]
+- !private ["s8HashableP", "Int64"]
+- !private ["s8HashableP", "KPLoggerConstants"]
+- !private ["s8HashableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["s8HashableP", "Units"]
+- !private ["s8HashableP", "allowedUnits"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "countStyle"]
+- !private ["s8HashableP", "dateFormat"]
+- ["s8HashableP", "default"]
+- ["s8HashableP", "documentDirectory"]
+- !private ["s8HashableP", "file"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "libraryDirectory"]
+- !private ["s8HashableP", "objc_AssociationPolicy"]
+- !private ["s8HashableP", "objc_getAssociatedObject"]
+- !private ["s8HashableP", "objc_setAssociatedObject"]
+- !private ["s8HashableP", "string"]
+- ["s8HashableP", "urls"]
+- !private ["s5Int64V", "init"]
+- !private ["18KPerformanceLogger17KPLoggerConstantsO", "logDateFormat"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s17MutableCollectionP", "ByteCountFormatter"]
+- !private ["s17MutableCollectionP", "Int64"]
+- !private ["s17MutableCollectionP", "count"]
+- ["So8NSCodingP", "CountStyle"]
+- ["So8NSCodingP", "Units"]
+- !private ["So8NSCodingP", "allowedUnits"]
+- !private ["So8NSCodingP", "countStyle"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "string"]
+- ["So9NSCopyingP", "CountStyle"]
+- ["So9NSCopyingP", "Units"]
+- !private ["So9NSCopyingP", "allowedUnits"]
+- !private ["So9NSCopyingP", "countStyle"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "AssociatedObjectHandleForloggerComment"]
+- !private ["So8NSObjectC", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["So8NSObjectC", "AssociatedObjectHandleForloggerTransaction"]
+- ["So8NSObjectC", "CountStyle"]
+- ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TransactionId"]
+- ["So8NSObjectC", "Units"]
+- !private ["So8NSObjectC", "allowedUnits"]
+- !private ["So8NSObjectC", "countStyle"]
+- !private ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "kpLoggerTransactionId"]
+- ["So8NSObjectC", "kploggerComments"]
+- ["So8NSObjectC", "kploggerCustomTransactionId"]
+- !private ["So8NSObjectC", "objc_AssociationPolicy"]
+- !private ["So8NSObjectC", "objc_getAssociatedObject"]
+- !private ["So8NSObjectC", "objc_setAssociatedObject"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "urls"]
+- !private ["So16NSObjectProtocolP", "AssociatedObjectHandleForloggerComment"]
+- !private ["So16NSObjectProtocolP", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["So16NSObjectProtocolP", "AssociatedObjectHandleForloggerTransaction"]
+- ["So16NSObjectProtocolP", "CountStyle"]
+- ["So16NSObjectProtocolP", "FileManager"]
+- ["So16NSObjectProtocolP", "Units"]
+- !private ["So16NSObjectProtocolP", "allowedUnits"]
+- !private ["So16NSObjectProtocolP", "countStyle"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "objc_AssociationPolicy"]
+- !private ["So16NSObjectProtocolP", "objc_getAssociatedObject"]
+- !private ["So16NSObjectProtocolP", "objc_setAssociatedObject"]
+- !private ["So16NSObjectProtocolP", "string"]
+- ["So16NSObjectProtocolP", "urls"]
+- !private ["s7NumericP", "init"]
+- ["s9OptionSetP", "allDomainsMask"]
+- !private ["s9OptionSetP", "useAll"]
+- ["So11FileManagerC18KPerformanceLoggerE5PathsO", "FileManager"]
+- ["So11FileManagerC18KPerformanceLoggerE5PathsO", "document"]
+- ["So11FileManagerC18KPerformanceLoggerE5PathsO", "library"]
+- !private ["s22RandomAccessCollectionP", "ByteCountFormatter"]
+- !private ["s22RandomAccessCollectionP", "Int64"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "ByteCountFormatter"]
+- !private ["s26RangeReplaceableCollectionP", "Int64"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s16RawRepresentableP", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["s16RawRepresentableP", "allDomainsMask"]
+- ["s16RawRepresentableP", "documentDirectory"]
+- !private ["s16RawRepresentableP", "file"]
+- ["s16RawRepresentableP", "libraryDirectory"]
+- !private ["s16RawRepresentableP", "useAll"]
+- !private ["10Foundation20ReferenceConvertibleP", "ByteCountFormatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "DateFormatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "Int64"]
+- !private ["10Foundation20ReferenceConvertibleP", "KPLoggerConstants"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- ["So11FileManagerC19SearchPathDirectoryO", "documentDirectory"]
+- ["So11FileManagerC19SearchPathDirectoryO", "libraryDirectory"]
+- ["So11FileManagerC20SearchPathDomainMaskV", "allDomainsMask"]
+- !private ["s8SequenceP", "ByteCountFormatter"]
+- !private ["s8SequenceP", "Int64"]
+- !private ["s8SequenceP", "count"]
+- ["s10SetAlgebraP", "allDomainsMask"]
+- !private ["s10SetAlgebraP", "useAll"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["So18ByteCountFormatterC5UnitsV", "useAll"]
+- !private ["s23_BidirectionalIndexableP", "ByteCountFormatter"]
+- !private ["s23_BidirectionalIndexableP", "Int64"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s10_IndexableP", "ByteCountFormatter"]
+- !private ["s10_IndexableP", "Int64"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s14_IndexableBaseP", "ByteCountFormatter"]
+- !private ["s14_IndexableBaseP", "Int64"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociatedObjectHandleForloggerComment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociatedObjectHandleForloggerCustomTypeId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociatedObjectHandleForloggerTransaction"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CountStyle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Units"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allowedUnits"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "countStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_AssociationPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_getAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objc_setAssociatedObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["s17_MutableIndexableP", "ByteCountFormatter"]
+- !private ["s17_MutableIndexableP", "Int64"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "ByteCountFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "DateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "Int64"]
+- !private ["s21_ObjectiveCBridgeableP", "KPLoggerConstants"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "ByteCountFormatter"]
+- !private ["s22_RandomAccessIndexableP", "Int64"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "ByteCountFormatter"]
+- !private ["s26_RangeReplaceableIndexableP", "Int64"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s11_StrideableP", "init"]
+- !private ["SC22objc_AssociationPolicyO", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- "So18ByteCountFormatterC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "So18ByteCountFormatterC0B5StyleO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+- !private "So13DateFormatterC"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "So11FileManagerC"
+- !private "s17FixedWidthIntegerP"
+- "So9FormatterC"
+- "s8HashableP"
+- !private "s5Int64V"
+- !private "18KPerformanceLogger17KPLoggerConstantsO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- "s9OptionSetP"
+- "So11FileManagerC18KPerformanceLoggerE5PathsO"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "So11FileManagerC19SearchPathDirectoryO"
+- "So11FileManagerC20SearchPathDomainMaskV"
+- !private "s8SequenceP"
+- "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So18ByteCountFormatterC5UnitsV"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "SC22objc_AssociationPolicyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogCapture.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLog.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/CocoaLumberjack.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Objective-C/KPLogManager.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDTTYLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/UmbrellaHeader/KPerformanceLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDFileLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLogMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDAssertMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLegacyMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphonesimulator/KPerformanceLogger.build/unextended-module.modulemap"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/module.modulemap"
+interface-hash: "855f2bc4c664ae121f1e5d9107bdef6b"

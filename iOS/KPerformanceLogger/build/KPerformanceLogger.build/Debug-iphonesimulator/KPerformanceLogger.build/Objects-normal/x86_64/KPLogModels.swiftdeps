@@ -1,0 +1,409 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LogInfo"
+- "LogStatus"
+- "LogType"
+- "Device"
+- "=="
+- "=="
+provides-nominal:
+- "18KPerformanceLogger7LogInfoV"
+- "18KPerformanceLogger9LogStatusO"
+- "18KPerformanceLogger7LogTypeO"
+- "18KPerformanceLogger6DeviceC"
+provides-member:
+- ["18KPerformanceLogger7LogInfoV", ""]
+- ["18KPerformanceLogger9LogStatusO", ""]
+- ["18KPerformanceLogger7LogTypeO", ""]
+- ["18KPerformanceLogger6DeviceC", ""]
+- ["18KPerformanceLogger9LogStatusO", "=="]
+- ["18KPerformanceLogger7LogTypeO", "=="]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CFTimeInterval"
+- !private "CastingPrecedence"
+- "Device"
+- !private "Int8"
+- "LogInfo"
+- "LogStatus"
+- "LogType"
+- !private "Mirror"
+- "String"
+- "StringLiteralType"
+- !private "Thread"
+- !private "Time"
+- "TransactionId"
+- !private "UIDevice"
+- "UInt"
+- !private "UInt8"
+- !private "UnicodeScalar"
+- !private "uname"
+- !private "utsname"
+- !private "~="
+depends-member:
+- !private ["s13AnyCollectionV", "reduce"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMainThread"]
+- !private ["s7CVarArgP", "localizedModel"]
+- !private ["s7CVarArgP", "model"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "systemName"]
+- !private ["s7CVarArgP", "systemVersion"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMainThread"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedModel"]
+- !private ["s28CustomDebugStringConvertibleP", "model"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "systemName"]
+- !private ["s28CustomDebugStringConvertibleP", "systemVersion"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "children"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMainThread"]
+- !private ["s23CustomStringConvertibleP", "localizedModel"]
+- !private ["s23CustomStringConvertibleP", "model"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "systemName"]
+- !private ["s23CustomStringConvertibleP", "systemVersion"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- ["18KPerformanceLogger6DeviceC", "Device"]
+- !private ["18KPerformanceLogger6DeviceC", "Int8"]
+- !private ["18KPerformanceLogger6DeviceC", "Mirror"]
+- ["18KPerformanceLogger6DeviceC", "String"]
+- !private ["18KPerformanceLogger6DeviceC", "UIDevice"]
+- !private ["18KPerformanceLogger6DeviceC", "UInt8"]
+- !private ["18KPerformanceLogger6DeviceC", "UnicodeScalar"]
+- ["18KPerformanceLogger6DeviceC", "current"]
+- ["18KPerformanceLogger6DeviceC", "deinit"]
+- ["18KPerformanceLogger6DeviceC", "description"]
+- ["18KPerformanceLogger6DeviceC", "init"]
+- ["18KPerformanceLogger6DeviceC", "localizedModel"]
+- ["18KPerformanceLogger6DeviceC", "model"]
+- ["18KPerformanceLogger6DeviceC", "modelName"]
+- ["18KPerformanceLogger6DeviceC", "name"]
+- ["18KPerformanceLogger6DeviceC", "systemName"]
+- ["18KPerformanceLogger6DeviceC", "systemVersion"]
+- !private ["18KPerformanceLogger6DeviceC", "uname"]
+- !private ["18KPerformanceLogger6DeviceC", "utsname"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "cancelled"]
+- !private ["s9EquatableP", "current"]
+- ["s9EquatableP", "fail"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isMainThread"]
+- !private ["s9EquatableP", "localizedModel"]
+- !private ["s9EquatableP", "model"]
+- !private ["s9EquatableP", "name"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "started"]
+- ["s9EquatableP", "success"]
+- !private ["s9EquatableP", "systemName"]
+- !private ["s9EquatableP", "systemVersion"]
+- ["s9EquatableP", "timeout"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "cancelled"]
+- !private ["s8HashableP", "current"]
+- ["s8HashableP", "fail"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isMainThread"]
+- !private ["s8HashableP", "localizedModel"]
+- !private ["s8HashableP", "model"]
+- !private ["s8HashableP", "name"]
+- ["s8HashableP", "rawValue"]
+- ["s8HashableP", "started"]
+- ["s8HashableP", "success"]
+- !private ["s8HashableP", "systemName"]
+- !private ["s8HashableP", "systemVersion"]
+- ["s8HashableP", "timeout"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- ["18KPerformanceLogger7LogInfoV", "Bool"]
+- ["18KPerformanceLogger7LogInfoV", "CFTimeInterval"]
+- ["18KPerformanceLogger7LogInfoV", "LogType"]
+- ["18KPerformanceLogger7LogInfoV", "String"]
+- !private ["18KPerformanceLogger7LogInfoV", "Thread"]
+- !private ["18KPerformanceLogger7LogInfoV", "Time"]
+- ["18KPerformanceLogger7LogInfoV", "TransactionId"]
+- ["18KPerformanceLogger7LogInfoV", "UInt"]
+- ["18KPerformanceLogger7LogInfoV", "comment"]
+- ["18KPerformanceLogger7LogInfoV", "dataSize"]
+- ["18KPerformanceLogger7LogInfoV", "filename"]
+- ["18KPerformanceLogger7LogInfoV", "functionName"]
+- ["18KPerformanceLogger7LogInfoV", "init"]
+- ["18KPerformanceLogger7LogInfoV", "isMainThread"]
+- ["18KPerformanceLogger7LogInfoV", "lineNumber"]
+- ["18KPerformanceLogger7LogInfoV", "logType"]
+- ["18KPerformanceLogger7LogInfoV", "startTime"]
+- ["18KPerformanceLogger7LogInfoV", "subType"]
+- ["18KPerformanceLogger7LogInfoV", "transactionId"]
+- ["18KPerformanceLogger9LogStatusO", "=="]
+- ["18KPerformanceLogger9LogStatusO", "Bool"]
+- ["18KPerformanceLogger9LogStatusO", "LogStatus"]
+- ["18KPerformanceLogger9LogStatusO", "RawValue"]
+- ["18KPerformanceLogger9LogStatusO", "cancelled"]
+- ["18KPerformanceLogger9LogStatusO", "deinit"]
+- ["18KPerformanceLogger9LogStatusO", "fail"]
+- ["18KPerformanceLogger9LogStatusO", "hashValue"]
+- ["18KPerformanceLogger9LogStatusO", "init"]
+- ["18KPerformanceLogger9LogStatusO", "rawValue"]
+- ["18KPerformanceLogger9LogStatusO", "started"]
+- ["18KPerformanceLogger9LogStatusO", "success"]
+- ["18KPerformanceLogger9LogStatusO", "timeout"]
+- ["18KPerformanceLogger7LogTypeO", "=="]
+- ["18KPerformanceLogger7LogTypeO", "Bool"]
+- ["18KPerformanceLogger7LogTypeO", "Identifier"]
+- ["18KPerformanceLogger7LogTypeO", "LogType"]
+- ["18KPerformanceLogger7LogTypeO", "String"]
+- ["18KPerformanceLogger7LogTypeO", "coreData"]
+- ["18KPerformanceLogger7LogTypeO", "custom"]
+- ["18KPerformanceLogger7LogTypeO", "network"]
+- ["18KPerformanceLogger7LogTypeO", "parsing"]
+- ["18KPerformanceLogger7LogTypeO", "toString"]
+- ["18KPerformanceLogger7LogTypeO", "userInterface"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s6MirrorV", "children"]
+- !private ["s6MirrorV", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "isMainThread"]
+- !private ["So8NSObjectC", "localizedModel"]
+- !private ["So8NSObjectC", "model"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "systemName"]
+- !private ["So8NSObjectC", "systemVersion"]
+- !private ["So16NSObjectProtocolP", "current"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isMainThread"]
+- !private ["So16NSObjectProtocolP", "localizedModel"]
+- !private ["So16NSObjectProtocolP", "model"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "systemName"]
+- !private ["So16NSObjectProtocolP", "systemVersion"]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s7NumericP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", "cancelled"]
+- ["s16RawRepresentableP", "fail"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "started"]
+- ["s16RawRepresentableP", "success"]
+- ["s16RawRepresentableP", "timeout"]
+- ["s16RawRepresentableP", ""]
+- !private ["s7UnicodeO6ScalarV", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So6ThreadC", "isMainThread"]
+- !private ["18KPerformanceLogger4TimeV", "current"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "localizedModel"]
+- !private ["So8UIDeviceC", "model"]
+- !private ["So8UIDeviceC", "name"]
+- !private ["So8UIDeviceC", "systemName"]
+- !private ["So8UIDeviceC", "systemVersion"]
+- !private ["s5UInt8V", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s22_AnyCollectionProtocolP", "reduce"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "reduce"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "reduce"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMainThread"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "model"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemVersion"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s14_StringElementP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["SC7utsnameV", "init"]
+- !private ["SC7utsnameV", "machine"]
+depends-nominal:
+- !private "s13AnyCollectionV"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "18KPerformanceLogger6DeviceC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "18KPerformanceLogger7LogInfoV"
+- "18KPerformanceLogger9LogStatusO"
+- "18KPerformanceLogger7LogTypeO"
+- "s25LosslessStringConvertibleP"
+- !private "s6MirrorV"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s7UnicodeO6ScalarV"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So6ThreadC"
+- !private "18KPerformanceLogger4TimeV"
+- !private "So8UIDeviceC"
+- !private "s5UInt8V"
+- !private "s15UnsignedIntegerP"
+- !private "s22_AnyCollectionProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s14_StringElementP"
+- "s16_SwiftStringViewP"
+- !private "SC7utsnameV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogCapture.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLog.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/CocoaLumberjack.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Objective-C/KPLogManager.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDTTYLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/UmbrellaHeader/KPerformanceLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDFileLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLogMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDAssertMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLegacyMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphonesimulator/KPerformanceLogger.build/unextended-module.modulemap"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/module.modulemap"
+interface-hash: "2f6a53345c168398ab8ecc38f265234d"
