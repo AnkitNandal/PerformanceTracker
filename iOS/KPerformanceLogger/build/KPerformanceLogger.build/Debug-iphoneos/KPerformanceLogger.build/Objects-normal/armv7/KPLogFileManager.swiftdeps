@@ -1,0 +1,659 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KPLogFileManager"
+- "KPDDFileLogManager"
+- "FileType"
+provides-nominal:
+- "18KPerformanceLogger16KPLogFileManagerC"
+- "18KPerformanceLogger18KPDDFileLogManagerC"
+- "18KPerformanceLogger8FileTypeO"
+provides-member:
+- ["18KPerformanceLogger16KPLogFileManagerC", ""]
+- ["18KPerformanceLogger18KPDDFileLogManagerC", ""]
+- ["18KPerformanceLogger8FileTypeO", ""]
+provides-dynamic-lookup:
+- "name"
+- "newLogFileName"
+depends-top-level:
+- !private "*"
+- !private "+"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "DDFileLogger"
+- !private "DDLog"
+- "DDLogFileManagerDefault"
+- !private "DDLogMessage"
+- !private "Date"
+- !private "Device"
+- !private "FileManager"
+- "FileType"
+- "KPDDFileLogManager"
+- "KPLogFileManager"
+- !private "KPLoggerConfiguration"
+- !private "KPLoggerConstants"
+- "String"
+- "StringLiteralType"
+- "TimeInterval"
+- "UInt64"
+- !private "URL"
+- !private "UnicodeScalarType"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["Sa", "first"]
+- !private ["s23BidirectionalCollectionP", "Encoding"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "replacingOccurrences"]
+- !private ["s23BidirectionalCollectionP", "write"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "Paths"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "createDirectory"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "info"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "log"]
+- !private ["s7CVarArgP", "logFileManager"]
+- !private ["s7CVarArgP", "maximumFileSize"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "rollingFrequency"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "write"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "Encoding"]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "replacingOccurrences"]
+- !private ["s10CollectionP", "write"]
+- !private ["s10ComparableP", "Encoding"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "replacingOccurrences"]
+- !private ["s10ComparableP", "toFormat"]
+- !private ["s10ComparableP", "write"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "Paths"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "appendPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "info"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "log"]
+- !private ["s28CustomDebugStringConvertibleP", "logFileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumFileSize"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "rollingFrequency"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "toFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s29CustomPlaygroundQuickLookableP", "toFormat"]
+- !private ["s29CustomPlaygroundQuickLookableP", "write"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "toFormat"]
+- !private ["s17CustomReflectableP", "write"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "Paths"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "appendPathComponent"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "createDirectory"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "info"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "logFileManager"]
+- !private ["s23CustomStringConvertibleP", "maximumFileSize"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "rollingFrequency"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "toFormat"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["So16DDAbstractLoggerC", "init"]
+- !private ["So16DDAbstractLoggerC", "log"]
+- !private ["So16DDAbstractLoggerC", "logFileManager"]
+- !private ["So16DDAbstractLoggerC", "maximumFileSize"]
+- !private ["So16DDAbstractLoggerC", "rollingFrequency"]
+- !private ["So12DDFileLoggerC", "init"]
+- !private ["So12DDFileLoggerC", "log"]
+- !private ["So12DDFileLoggerC", "logFileManager"]
+- !private ["So12DDFileLoggerC", "maximumFileSize"]
+- !private ["So12DDFileLoggerC", "rollingFrequency"]
+- !private ["So5DDLogC", "add"]
+- !private ["So16DDLogFileManagerP", "init"]
+- !private ["So16DDLogFileManagerP", "name"]
+- !private ["So16DDLogFileManagerP", "sortedLogFilePaths"]
+- ["So16DDLogFileManagerP", ""]
+- ["So23DDLogFileManagerDefaultC", "String"]
+- ["So23DDLogFileManagerDefaultC", "init"]
+- ["So23DDLogFileManagerDefaultC", "name"]
+- ["So23DDLogFileManagerDefaultC", "newLogFileName"]
+- ["So23DDLogFileManagerDefaultC", ""]
+- !private ["SC9DDLogFlagV", "debug"]
+- !private ["SC10DDLogLevelO", "all"]
+- !private ["So12DDLogMessageC", "init"]
+- !private ["SC19DDLogMessageOptionsV", "copyFile"]
+- !private ["SC19DDLogMessageOptionsV", "copyFunction"]
+- !private ["So8DDLoggerP", "init"]
+- !private ["So8DDLoggerP", "log"]
+- !private ["So8DDLoggerP", "logFileManager"]
+- !private ["So8DDLoggerP", "maximumFileSize"]
+- !private ["So8DDLoggerP", "rollingFrequency"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "toFormat"]
+- !private ["s9DecodableP", "Encoding"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "appendPathComponent"]
+- !private ["s9DecodableP", "appendingPathComponent"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "path"]
+- !private ["s9DecodableP", "replacingOccurrences"]
+- !private ["s9DecodableP", "toFormat"]
+- !private ["s9DecodableP", "write"]
+- !private ["18KPerformanceLogger6DeviceC", "current"]
+- !private ["18KPerformanceLogger6DeviceC", "description"]
+- !private ["s9EncodableP", "Encoding"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "appendPathComponent"]
+- !private ["s9EncodableP", "appendingPathComponent"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "path"]
+- !private ["s9EncodableP", "replacingOccurrences"]
+- !private ["s9EncodableP", "toFormat"]
+- !private ["s9EncodableP", "write"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["s9EquatableP", "Encoding"]
+- !private ["s9EquatableP", "Paths"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "add"]
+- !private ["s9EquatableP", "all"]
+- !private ["s9EquatableP", "appendPathComponent"]
+- !private ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "copyFile"]
+- !private ["s9EquatableP", "copyFunction"]
+- !private ["s9EquatableP", "createDirectory"]
+- ["s9EquatableP", "csv"]
+- !private ["s9EquatableP", "debug"]
+- !private ["s9EquatableP", "default"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "info"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "log"]
+- !private ["s9EquatableP", "logFileManager"]
+- !private ["s9EquatableP", "maximumFileSize"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "path"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "rollingFrequency"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "toFormat"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s9EquatableP", "write"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "copyFile"]
+- !private ["s25ExpressibleByArrayLiteralP", "copyFunction"]
+- !private ["s25ExpressibleByArrayLiteralP", "debug"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "write"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "write"]
+- !private ["So11FileManagerC", "Paths"]
+- !private ["So11FileManagerC", "createDirectory"]
+- !private ["So11FileManagerC", "default"]
+- ["18KPerformanceLogger8FileTypeO", "RawValue"]
+- ["18KPerformanceLogger8FileTypeO", "csv"]
+- ["18KPerformanceLogger8FileTypeO", "deinit"]
+- ["18KPerformanceLogger8FileTypeO", "hashValue"]
+- ["18KPerformanceLogger8FileTypeO", "init"]
+- ["18KPerformanceLogger8FileTypeO", "rawValue"]
+- ["18KPerformanceLogger8FileTypeO", "txt"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- !private ["s8HashableP", "Encoding"]
+- !private ["s8HashableP", "Paths"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "add"]
+- !private ["s8HashableP", "all"]
+- !private ["s8HashableP", "appendPathComponent"]
+- !private ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "createDirectory"]
+- ["s8HashableP", "csv"]
+- !private ["s8HashableP", "default"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "info"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "log"]
+- !private ["s8HashableP", "logFileManager"]
+- !private ["s8HashableP", "maximumFileSize"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "path"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "replacingOccurrences"]
+- !private ["s8HashableP", "rollingFrequency"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "toFormat"]
+- !private ["s8HashableP", "utf8"]
+- !private ["s8HashableP", "write"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- ["18KPerformanceLogger18KPDDFileLogManagerC", "String"]
+- ["18KPerformanceLogger18KPDDFileLogManagerC", "deinit"]
+- ["18KPerformanceLogger18KPDDFileLogManagerC", "init"]
+- ["18KPerformanceLogger18KPDDFileLogManagerC", "name"]
+- ["18KPerformanceLogger18KPDDFileLogManagerC", "newLogFileName"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "DDFileLogger"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "DDLog"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "DDLogMessage"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "Date"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "Device"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "FileManager"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "FileType"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "KPDDFileLogManager"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "KPLogFileManager"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "KPLoggerConfiguration"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "KPLoggerConstants"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "String"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "TimeInterval"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "UInt64"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "URL"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "config"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "createDeviceInfoFile"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "ddLogger"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "defaultFileInfo"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "defaultFileInfo.storage"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "deinit"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "fileExtension"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "getLogFilesPath"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "getUniqueFileName"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "init"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "logFilePaths"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "logMessage"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "print"]
+- ["18KPerformanceLogger16KPLogFileManagerC", "shared"]
+- !private ["18KPerformanceLogger21KPLoggerConfigurationC", "info"]
+- !private ["18KPerformanceLogger21KPLoggerConfigurationC", "shared"]
+- !private ["18KPerformanceLogger17KPLoggerConstantsO", "fileCreationError"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s25LosslessStringConvertibleP", "write"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "write"]
+- !private ["s17MutableCollectionP", "first"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "write"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "write"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "write"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "write"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So16NSMutableCopyingP", "write"]
+- !private ["So8NSObjectC", "Paths"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "createDirectory"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "info"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "log"]
+- !private ["So8NSObjectC", "logFileManager"]
+- !private ["So8NSObjectC", "maximumFileSize"]
+- ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "newLogFileName"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- !private ["So8NSObjectC", "rollingFrequency"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So16NSObjectProtocolP", "Paths"]
+- !private ["So16NSObjectProtocolP", "add"]
+- !private ["So16NSObjectProtocolP", "createDirectory"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "info"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "log"]
+- !private ["So16NSObjectProtocolP", "logFileManager"]
+- !private ["So16NSObjectProtocolP", "maximumFileSize"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "replacingOccurrences"]
+- !private ["So16NSObjectProtocolP", "rollingFrequency"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "sortedLogFilePaths"]
+- !private ["So16NSObjectProtocolP", "write"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "write"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["So8NSStringC", "write"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["s9OptionSetP", "copyFile"]
+- !private ["s9OptionSetP", "copyFunction"]
+- !private ["s9OptionSetP", "debug"]
+- !private ["So11FileManagerC18KPerformanceLoggerE5PathsO", "library"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "Encoding"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "replacingOccurrences"]
+- !private ["s26RangeReplaceableCollectionP", "write"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "all"]
+- !private ["s16RawRepresentableP", "copyFile"]
+- !private ["s16RawRepresentableP", "copyFunction"]
+- ["s16RawRepresentableP", "csv"]
+- !private ["s16RawRepresentableP", "debug"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "utf8"]
+- ["s16RawRepresentableP", ""]
+- !private ["10Foundation20ReferenceConvertibleP", "appendPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["10Foundation20ReferenceConvertibleP", "toFormat"]
+- !private ["s8SequenceP", "Encoding"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "replacingOccurrences"]
+- !private ["s8SequenceP", "write"]
+- !private ["s10SetAlgebraP", "copyFile"]
+- !private ["s10SetAlgebraP", "copyFunction"]
+- !private ["s10SetAlgebraP", "debug"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["SS", "Encoding"]
+- ["SS", "init"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["SS", "write"]
+- !private ["s14StringProtocolP", "Encoding"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "replacingOccurrences"]
+- !private ["s14StringProtocolP", "write"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "write"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "write"]
+- !private ["10Foundation3URLV", "appendPathComponent"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s23_BidirectionalIndexableP", "Encoding"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "replacingOccurrences"]
+- !private ["s23_BidirectionalIndexableP", "write"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "write"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "write"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "write"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "write"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Encoding"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s33_ExpressibleByStringInterpolationP", "write"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "write"]
+- !private ["s10_IndexableP", "Encoding"]
+- !private ["s10_IndexableP", "first"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "replacingOccurrences"]
+- !private ["s10_IndexableP", "write"]
+- !private ["s14_IndexableBaseP", "Encoding"]
+- !private ["s14_IndexableBaseP", "first"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "replacingOccurrences"]
+- !private ["s14_IndexableBaseP", "write"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Paths"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "info"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "log"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logFileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumFileSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rollingFrequency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "appendPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- !private ["s21_ObjectiveCBridgeableP", "toFormat"]
+- !private ["s21_ObjectiveCBridgeableP", "write"]
+- !private ["s22_RandomAccessIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "Encoding"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "replacingOccurrences"]
+- !private ["s26_RangeReplaceableIndexableP", "write"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s16_SwiftStringViewP", "Encoding"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+- !private ["s16_SwiftStringViewP", "write"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "So16DDAbstractLoggerC"
+- !private "So12DDFileLoggerC"
+- !private "So5DDLogC"
+- "So16DDLogFileManagerP"
+- "So23DDLogFileManagerDefaultC"
+- !private "SC9DDLogFlagV"
+- !private "SC10DDLogLevelO"
+- !private "So12DDLogMessageC"
+- !private "SC19DDLogMessageOptionsV"
+- !private "So8DDLoggerP"
+- !private "10Foundation4DateV"
+- "s9DecodableP"
+- !private "18KPerformanceLogger6DeviceC"
+- "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11FileManagerC"
+- "18KPerformanceLogger8FileTypeO"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "18KPerformanceLogger18KPDDFileLogManagerC"
+- "18KPerformanceLogger16KPLogFileManagerC"
+- !private "18KPerformanceLogger21KPLoggerConfigurationC"
+- !private "18KPerformanceLogger17KPLoggerConstantsO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s7NumericP"
+- !private "s9OptionSetP"
+- !private "So11FileManagerC18KPerformanceLoggerE5PathsO"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogCapture.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLog.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/CocoaLumberjack.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Objective-C/KPLogManager.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDTTYLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/UmbrellaHeader/KPerformanceLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDFileLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLogMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDAssertMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLegacyMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphoneos/KPerformanceLogger.build/unextended-module.modulemap"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/module.modulemap"
+interface-hash: "88ae4b861882cadbbc03a59a29f94dde"

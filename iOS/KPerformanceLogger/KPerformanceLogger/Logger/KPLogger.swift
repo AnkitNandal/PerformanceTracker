@@ -162,7 +162,7 @@ extension KPLogger {
 
      */
     func stop (logType type:LogType,subType subTypeName:String? = nil) {
-        dispatchQueue.async {
+        dispatchQueue.sync {
         guard let child = getChild(from: type, subtype: subTypeName) else {return}
         child.stopTimeTracking()
         

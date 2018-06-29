@@ -1,0 +1,287 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KPLoggerConfiguration"
+provides-nominal:
+- "18KPerformanceLogger21KPLoggerConfigurationC"
+provides-member:
+- ["18KPerformanceLogger21KPLoggerConfigurationC", ""]
+provides-dynamic-lookup:
+- "autoCloserTime"
+- "customLogGenerationConfigurations"
+- "enable"
+- "fulshCount"
+- "info"
+- "logsPath"
+- "setCustomBenchmark"
+- "shared"
+- "useDefaultConfiguration"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- !private "BenchMarkInfo"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Dictionary"
+- "Double"
+- !private "KPBenchmark"
+- !private "KPLogFileManager"
+- "KPLoggerConfiguration"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "UInt"
+- "UInt64"
+depends-member:
+- !private ["18KPerformanceLogger13BenchMarkInfoV", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "BenchMarkInfo"]
+- !private ["s7CVarArgP", "KPBenchmark"]
+- !private ["s7CVarArgP", "KPLogFileManager"]
+- ["s7CVarArgP", "KPLoggerConfiguration"]
+- !private ["s7CVarArgP", "configureReportGeneration"]
+- !private ["s7CVarArgP", "enable"]
+- !private ["s7CVarArgP", "fulshCount"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "shared"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "BenchMarkInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "KPBenchmark"]
+- !private ["s28CustomDebugStringConvertibleP", "KPLogFileManager"]
+- ["s28CustomDebugStringConvertibleP", "KPLoggerConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "configureReportGeneration"]
+- !private ["s28CustomDebugStringConvertibleP", "enable"]
+- !private ["s28CustomDebugStringConvertibleP", "fulshCount"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "BenchMarkInfo"]
+- !private ["s23CustomStringConvertibleP", "KPBenchmark"]
+- !private ["s23CustomStringConvertibleP", "KPLogFileManager"]
+- ["s23CustomStringConvertibleP", "KPLoggerConfiguration"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "configureReportGeneration"]
+- !private ["s23CustomStringConvertibleP", "enable"]
+- !private ["s23CustomStringConvertibleP", "fulshCount"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "BenchMarkInfo"]
+- !private ["s9EquatableP", "KPBenchmark"]
+- !private ["s9EquatableP", "KPLogFileManager"]
+- ["s9EquatableP", "KPLoggerConfiguration"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "configureReportGeneration"]
+- !private ["s9EquatableP", "enable"]
+- !private ["s9EquatableP", "fulshCount"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "shared"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "BenchMarkInfo"]
+- !private ["s8HashableP", "KPBenchmark"]
+- !private ["s8HashableP", "KPLogFileManager"]
+- ["s8HashableP", "KPLoggerConfiguration"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "configureReportGeneration"]
+- !private ["s8HashableP", "enable"]
+- !private ["s8HashableP", "fulshCount"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "shared"]
+- ["s8HashableP", ""]
+- !private ["18KPerformanceLogger11KPBenchmarkC", "setBenchmark"]
+- !private ["18KPerformanceLogger11KPBenchmarkC", "shared"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "config"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "logFilePaths"]
+- !private ["18KPerformanceLogger16KPLogFileManagerC", "shared"]
+- !private ["18KPerformanceLogger21KPLoggerConfigurationC", "BenchMarkInfo"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "Bool"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "Double"]
+- !private ["18KPerformanceLogger21KPLoggerConfigurationC", "KPBenchmark"]
+- !private ["18KPerformanceLogger21KPLoggerConfigurationC", "KPLogFileManager"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "KPLoggerConfiguration"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "String"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "TimeInterval"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "UInt"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "UInt64"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "autoCloserTime"]
+- !private ["18KPerformanceLogger21KPLoggerConfigurationC", "configureReportGeneration"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "customLogGenerationConfigurations"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "deinit"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "enable"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "fulshCount"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "info"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "init"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "logsPath"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "setCustomBenchmark"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "shared"]
+- ["18KPerformanceLogger21KPLoggerConfigurationC", "useDefaultConfiguration"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "BenchMarkInfo"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "KPBenchmark"]
+- !private ["So8NSObjectC", "KPLogFileManager"]
+- ["So8NSObjectC", "KPLoggerConfiguration"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "UInt"]
+- ["So8NSObjectC", "UInt64"]
+- ["So8NSObjectC", "autoCloserTime"]
+- ["So8NSObjectC", "configureReportGeneration"]
+- ["So8NSObjectC", "customLogGenerationConfigurations"]
+- ["So8NSObjectC", "enable"]
+- ["So8NSObjectC", "fulshCount"]
+- ["So8NSObjectC", "info"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "logsPath"]
+- ["So8NSObjectC", "setCustomBenchmark"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "useDefaultConfiguration"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "BenchMarkInfo"]
+- !private ["So16NSObjectProtocolP", "KPBenchmark"]
+- !private ["So16NSObjectProtocolP", "KPLogFileManager"]
+- ["So16NSObjectProtocolP", "KPLoggerConfiguration"]
+- !private ["So16NSObjectProtocolP", "configureReportGeneration"]
+- !private ["So16NSObjectProtocolP", "enable"]
+- !private ["So16NSObjectProtocolP", "fulshCount"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BenchMarkInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KPBenchmark"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KPLogFileManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "KPLoggerConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureReportGeneration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulshCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "18KPerformanceLogger13BenchMarkInfoV"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "18KPerformanceLogger11KPBenchmarkC"
+- !private "18KPerformanceLogger16KPLogFileManagerC"
+- "18KPerformanceLogger21KPLoggerConfigurationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogCapture.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLog.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/CocoaLumberjack.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Objective-C/KPLogManager.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDTTYLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/UmbrellaHeader/KPerformanceLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDFileLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLogMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDAssertMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLegacyMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphonesimulator/KPerformanceLogger.build/unextended-module.modulemap"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/module.modulemap"
+interface-hash: "e337845c3e7623fcb8588f4b0b14525a"

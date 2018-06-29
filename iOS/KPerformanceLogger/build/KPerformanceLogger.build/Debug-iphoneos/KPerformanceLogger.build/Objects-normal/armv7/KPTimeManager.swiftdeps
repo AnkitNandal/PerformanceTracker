@@ -1,0 +1,71 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Time"
+- "TimeManager"
+provides-nominal:
+- "18KPerformanceLogger4TimeV"
+- "18KPerformanceLogger11TimeManagerV"
+provides-member:
+- ["18KPerformanceLogger4TimeV", ""]
+- ["18KPerformanceLogger11TimeManagerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "-"
+- "AssignmentPrecedence"
+- "CFAbsoluteTime"
+- !private "CFAbsoluteTimeGetCurrent"
+- "CFTimeInterval"
+- "ElapsedTime"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Time"
+- "TimeManager"
+depends-member:
+- ["18KPerformanceLogger4TimeV", "CFAbsoluteTime"]
+- !private ["18KPerformanceLogger4TimeV", "CFAbsoluteTimeGetCurrent"]
+- ["18KPerformanceLogger4TimeV", "ElapsedTime"]
+- !private ["18KPerformanceLogger4TimeV", "Time"]
+- ["18KPerformanceLogger4TimeV", "current"]
+- ["18KPerformanceLogger4TimeV", "elapsed"]
+- ["18KPerformanceLogger4TimeV", "init"]
+- ["18KPerformanceLogger11TimeManagerV", "CFTimeInterval"]
+- ["18KPerformanceLogger11TimeManagerV", "ElapsedTime"]
+- !private ["18KPerformanceLogger11TimeManagerV", "Time"]
+- ["18KPerformanceLogger11TimeManagerV", "elapsed"]
+- ["18KPerformanceLogger11TimeManagerV", "end"]
+- ["18KPerformanceLogger11TimeManagerV", "init"]
+- ["18KPerformanceLogger11TimeManagerV", "start"]
+- ["18KPerformanceLogger11TimeManagerV", "stop"]
+depends-nominal:
+- "18KPerformanceLogger4TimeV"
+- "18KPerformanceLogger11TimeManagerV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogCapture.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLog.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/CocoaLumberjack.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Objective-C/KPLogManager.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDASLLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDTTYLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/UmbrellaHeader/KPerformanceLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDFileLogger.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLogMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDAssertMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/../DDLogger/DDLegacyMacros.h"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/build/KPerformanceLogger.build/Debug-iphoneos/KPerformanceLogger.build/unextended-module.modulemap"
+- "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/DDLoggerPrivate/module.modulemap"
+interface-hash: "5565f47a7c51dc1634fd611270ca6666"

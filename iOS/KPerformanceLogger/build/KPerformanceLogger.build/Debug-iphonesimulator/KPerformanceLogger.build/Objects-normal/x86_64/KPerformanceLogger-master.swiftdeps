@@ -1,14 +1,14 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "6f52c975bfe28c823fdc6a5b728ac5a5"
-build_time: [1530263516, 875042000]
+build_time: [1530264513, 525167000]
 inputs:
-  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogger.swift": !dirty [1530263505, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogger.swift": [1530264504, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPTimeManager.swift": [1530263414, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPBenchmark.swift": [1530263414, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLoggerConfiguration.swift": [1530263415, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogFileManager.swift": [1530263414, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLoggerConstants.swift": [1530263415, 0]
-  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPerformanceLoggerManager.swift": !dirty [1530263505, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPerformanceLoggerManager.swift": [1530264023, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogExtensions.swift": [1530263414, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLog.swift": [1530263415, 0]
   "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogModels.swift": [1530263414, 0]

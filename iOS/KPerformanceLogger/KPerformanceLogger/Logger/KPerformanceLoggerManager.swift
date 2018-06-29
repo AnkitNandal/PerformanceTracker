@@ -446,7 +446,7 @@ extension KPerformanceLoggerManager:KPLoggerDelegate {
      */
     func didFinishTracking(transactionId: TransactionId?) {
         dispatchQueue.async {
-            guard let tID = transactionId ,  let activeLog = getActiveLog(transactionId: tID) else {return}
+            guard let tID = transactionId ,  let activeLog = self.getActiveLog(transactionId: tID) else {return}
             KPerformanceLoggerManager.offloadActiveLogToFinished(log: activeLog)
         }
     }

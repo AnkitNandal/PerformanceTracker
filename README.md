@@ -318,9 +318,6 @@ The current version of KPerfromanceLogger requires:
 ### Author
 - [Ankit](https://github.com/AnkitNandal)
 
-### Collaborators
-- [Kohls](https://github.com/kohls)
-
 
 ### License
 - KperfromanceLogger is available under the BSD license. See the [LICENSE file](https://github.com/KperfromanceLogger/KperfromanceLogger/master/LICENSE.txt).

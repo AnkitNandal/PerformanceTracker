@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "e43668c9231769fe2b96bcf657af4e3b"
+build_time: [1530264515, 919618000]
+inputs:
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogger.swift": [1530264504, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPTimeManager.swift": [1530263414, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPBenchmark.swift": [1530263414, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLoggerConfiguration.swift": [1530263415, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogFileManager.swift": [1530263414, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLoggerConstants.swift": [1530263415, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPerformanceLoggerManager.swift": [1530264023, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogExtensions.swift": [1530263414, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLog.swift": [1530263415, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogModels.swift": [1530263414, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLoggerSessionDataManager.swift": [1530263415, 0]
+  "/Users/ankit.nandal/Desktop/PERF/iOS/KPerformanceLogger/KPerformanceLogger/Logger/KPLogFormatter.swift": [1530263414, 0]
